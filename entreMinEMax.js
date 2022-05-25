@@ -1,13 +1,15 @@
-acerto = (a, b, c) => {
+acerto = (a, b, c, d = false) => {
   if (a > b && a < c) {
     console.log('true')
-  } else if (a == b || a == c) {
+  } else if ((a == b || a == c, d == true)) {
     console.log('true')
   } else if (a < b) {
     console.log('false')
   } else if (a > c) {
     console.log('false')
+  } else {
+    console.log('false')
   }
 }
-// preciso terminar
-acerto(30, 10, 30)
+
+acerto(30, 10, 30, true)
