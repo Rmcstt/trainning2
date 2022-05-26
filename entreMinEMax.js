@@ -12,4 +12,4 @@ acerto = (a, b, c, d = false) => {
   }
 }
 
-acerto(30, 10, 30, true)
+acerto(31, 10, 31)
