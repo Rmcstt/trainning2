@@ -1,8 +1,8 @@
 function indexAndNumber(numeros) {
-  return numeros.filter((numero, indice) => {
+  return numeros.filter((numero, index) => {
     //o primeiro parametro do filter é o elemento, o segundo seria o index!! o terceiro seria o proprio array
     const numeroPar = numero % 2 === 0
-    const indicePar = indice % 2 === 0
+    const indicePar = index % 2 === 0
     return numeroPar && indicePar
   })
 }
